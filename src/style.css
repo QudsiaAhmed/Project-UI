@@ -1,0 +1,65 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-line {
+    width: 80%;
+    height: 1px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+/* Contact.css */
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 4rem;
+}
+
+.contact {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(218,230,238);
+    border: 2px solid rgb(140, 195, 228);
+    color: rgb(142, 178, 217);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsive CSS using media queries */
+@media screen and (max-width: 480px) {
+    .contact-form {
+        max-width: 100%;
+    }
+
+    input,
+    textarea {
+        margin-bottom: 12px;
+    }
+}
+
